@@ -1,0 +1,258 @@
+/* Importing color variables */
+
+@import "colors"
+
+
+
+/* Main styles */
+
+body
+	font-family: 'Lato', sans-serif
+	color: $main-text
+	background-color: $body-bg
+	margin: 0
+	padding: 0
+
+
+/* Header */
+
+header
+	background-image: url("../images/bg-head.png")
+	background-position: center
+	background-repeat: no-repeat
+	min-height: 720px
+	& .col-md-8
+		& h1
+			font-weight: normal
+			font-size: 60px
+			margin: 20px 0
+	& .col
+		text-align: center
+	& .col-md-6
+		text-align: center
+	& button
+		width: 280px
+		height: 65px
+		max-width: 100%
+		background-color: $hd-button
+		border: none
+		border-radius: 5px
+		font-weight: normal
+		font-size: 22px
+		color: $main-text
+	& .title
+		min-height: 240px
+	& .tagline
+		height: 80px
+		& img
+			height: 100px
+	& .button
+		margin-top: 320px
+	& p
+		font-style: italic
+		font-size: 20px
+
+
+
+/* Content. Section 1 (Download) */
+
+.content-download
+	background-color: $sec-1-bg
+	overflow: hidden
+	& .container
+		padding-top: 35px
+		padding-bottom: 75px
+		& h1
+			font-weight: normal
+			font-size: 45px
+			line-height: 50px
+			margin: 0px 10px
+		& p
+			font-weight: normal
+			font-size: 16px
+			line-height: 30px
+			margin: 30px 10px
+		& .ipad
+			position: relative
+			& #ipad
+				display: none
+				position: absolute
+				top: -15px
+				left: 20px
+			& #ipad-shadow
+				display: none
+				position: absolute
+				top: 5px
+				left: 0
+		& button
+			height: 70px
+			width: 280px
+			max-width: 100%
+			background: $sec-1-bg
+			color: $main-text
+			border: 4px solid $main-text
+			border-radius: 4px
+			font-size: 20px
+			font-weight: normal
+			font-family: 'Roboto',sans-serif
+
+
+
+/* Content. Section 2 (Review) */
+
+.content-review
+	min-height: 568px
+	background-color: $sec-2-bg
+	background: url(../images/review-bg.png) no-repeat
+	& .row-avatar
+		padding-top: 80px
+		& .avatar 
+			overflow: hidden
+			width: 135px
+			height: 135px
+			border: 4px solid $main-text
+			border-radius: 50%
+			position: relative
+			margin: 0 auto
+			& img
+				position: absolute
+				left: -40px
+	& .row-quote
+		padding-bottom: 0
+		& p
+			font-size: 30px
+			font-style: italic
+			text-align: center
+		& .center
+			margin: 0 auto
+			text-align: center
+		& .dot
+			display: inline-block
+			width: 12px
+			height: 12px
+			border: 2px solid $main-text
+			border-radius: 50%
+			margin: 20px 8px 0
+		& .active
+			background-color: $main-text
+
+
+
+/* Content. Down-arrow after section 2 (Review) */
+.down-arrow
+	background-color: $main-text
+	& div
+		margin: 0 auto
+		width: 38px
+		border: 19px solid $main-text
+		border-top-color: $sec-2-bg
+		border-bottom: none
+
+
+
+/* Content. Section 3 (Articles) */
+
+.content-articles
+	background-color: $main-text
+	color: $sec-3-text
+	& .row-articles
+		position: relative
+		& article
+			margin: 100px 0
+			& .caption
+				font-size: 18px
+				text-transform: uppercase
+				font-weight: bold
+				letter-spacing: 4px
+			& .article-content
+				font-weight: normal
+				font-size: 16px
+				line-height: 30px
+				margin: 30px 0
+		& .col-left
+			padding-right: 75px
+		& .col-right
+			padding-left: 75px
+		& .v-line
+			position: absolute
+			left: 50%
+			top: 75px
+			bottom: 75px
+			border: 1px solid $sec-3-line
+			border-right: none
+	& .row-button
+		padding-bottom: 100px
+		& button
+			width: 180px
+			height: 60px
+			max-width: 100%
+			background-color: $sec-3-button
+			border: none
+			border-radius: 5px
+			font-weight: normal
+			font-size: 18px
+			color: $main-text
+
+
+
+/* Content. Section 4 (Posts) */
+
+.content-posts
+	background: $sec-4-bg
+	min-height: 100px
+	color: $sec-3-text
+	& .row
+		padding-top: 100px
+		padding-bottom: 150px
+		& .picture
+			height: 325px
+			width: 320px
+		& .pic-label
+			height: 140px
+			max-width: 100%
+			border-bottom: 2px solid $sec-3-line
+			background-color: $main-text
+			padding: 30px
+			padding-left: 40px
+			& h1
+				margin: 0
+				margin-bottom: 8px
+				font-size: 16px
+				font-weight: bold
+				letter-spacing: 2px
+				text-transform: uppercase
+			& p
+				margin: 0
+				font-style: italic
+		& .col-first
+			padding-right: 24px
+			& .picture
+				background-color: $sec-4-pic1
+		& .col-second
+			padding-left: 0
+			& .picture
+				background-color: $sec-4-pic2
+		& .col-third
+			& h1
+				font-weight: normal
+				font-size: 45px
+				line-height: 50px
+				margin: 0
+			& p
+				font-weight: normal
+				font-size: 16px
+				line-height: 30px
+				margin: 30px 0px
+			.row-selector
+				padding: 0
+
+
+
+
+
+
+/* Footer */
+
+footer
+	background: #7accc8
+	min-height: 100px

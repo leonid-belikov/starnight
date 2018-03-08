@@ -1,0 +1,228 @@
+/* Importing color variables */
+/* Main styles */
+body {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  background-color: #567;
+  margin: 0;
+  padding: 0; }
+
+/* Header */
+header {
+  background-image: url("../images/bg-head.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 720px; }
+  header .col-md-8 h1 {
+    font-weight: normal;
+    font-size: 60px;
+    margin: 20px 0; }
+  header .col {
+    text-align: center; }
+  header .col-md-6 {
+    text-align: center; }
+  header button {
+    width: 280px;
+    height: 65px;
+    max-width: 100%;
+    background-color: rgba(90, 191, 186, 0.8);
+    border: none;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 22px;
+    color: #fff; }
+  header .title {
+    min-height: 240px; }
+  header .tagline {
+    height: 80px; }
+    header .tagline img {
+      height: 100px; }
+  header .button {
+    margin-top: 320px; }
+  header p {
+    font-style: italic;
+    font-size: 20px; }
+
+/* Content. Section 1 (Download) */
+.content-download {
+  background-color: #EFB661;
+  overflow: hidden; }
+  .content-download .container {
+    padding-top: 35px;
+    padding-bottom: 75px; }
+    .content-download .container h1 {
+      font-weight: normal;
+      font-size: 45px;
+      line-height: 50px;
+      margin: 0px 10px; }
+    .content-download .container p {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 30px;
+      margin: 30px 10px; }
+    .content-download .container .ipad {
+      position: relative; }
+      .content-download .container .ipad #ipad {
+        display: none;
+        position: absolute;
+        top: -15px;
+        left: 20px; }
+      .content-download .container .ipad #ipad-shadow {
+        display: none;
+        position: absolute;
+        top: 5px;
+        left: 0; }
+    .content-download .container button {
+      height: 70px;
+      width: 280px;
+      max-width: 100%;
+      background: #EFB661;
+      color: #fff;
+      border: 4px solid #fff;
+      border-radius: 4px;
+      font-size: 20px;
+      font-weight: normal;
+      font-family: "Roboto", sans-serif; }
+
+/* Content. Section 2 (Review) */
+.content-review {
+  min-height: 568px;
+  background-color: #5b6869;
+  background: url(../images/review-bg.png) no-repeat; }
+  .content-review .row-avatar {
+    padding-top: 80px; }
+    .content-review .row-avatar .avatar {
+      overflow: hidden;
+      width: 135px;
+      height: 135px;
+      border: 4px solid #fff;
+      border-radius: 50%;
+      position: relative;
+      margin: 0 auto; }
+      .content-review .row-avatar .avatar img {
+        position: absolute;
+        left: -40px; }
+  .content-review .row-quote {
+    padding-bottom: 0; }
+    .content-review .row-quote p {
+      font-size: 30px;
+      font-style: italic;
+      text-align: center; }
+    .content-review .row-quote .center {
+      margin: 0 auto;
+      text-align: center; }
+    .content-review .row-quote .dot {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      margin: 20px 8px 0; }
+    .content-review .row-quote .active {
+      background-color: #fff; }
+
+/* Content. Down-arrow after section 2 (Review) */
+.down-arrow {
+  background-color: #fff; }
+  .down-arrow div {
+    margin: 0 auto;
+    width: 38px;
+    border: 19px solid #fff;
+    border-top-color: #5b6869;
+    border-bottom: none; }
+
+/* Content. Section 3 (Articles) */
+.content-articles {
+  background-color: #fff;
+  color: #9197a8; }
+  .content-articles .row-articles {
+    position: relative; }
+    .content-articles .row-articles article {
+      margin: 100px 0; }
+      .content-articles .row-articles article .caption {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 4px; }
+      .content-articles .row-articles article .article-content {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        margin: 30px 0; }
+    .content-articles .row-articles .col-left {
+      padding-right: 75px; }
+    .content-articles .row-articles .col-right {
+      padding-left: 75px; }
+    .content-articles .row-articles .v-line {
+      position: absolute;
+      left: 50%;
+      top: 75px;
+      bottom: 75px;
+      border: 1px solid #e6e8ec;
+      border-right: none; }
+  .content-articles .row-button {
+    padding-bottom: 100px; }
+    .content-articles .row-button button {
+      width: 180px;
+      height: 60px;
+      max-width: 100%;
+      background-color: #f69679;
+      border: none;
+      border-radius: 5px;
+      font-weight: normal;
+      font-size: 18px;
+      color: #fff; }
+
+/* Content. Section 4 (Posts) */
+.content-posts {
+  background: #f6f6f4;
+  min-height: 100px;
+  color: #9197a8; }
+  .content-posts .row {
+    padding-top: 100px;
+    padding-bottom: 150px; }
+    .content-posts .row .picture {
+      height: 325px;
+      width: 320px; }
+    .content-posts .row .pic-label {
+      height: 140px;
+      max-width: 100%;
+      border-bottom: 2px solid #e6e8ec;
+      background-color: #fff;
+      padding: 30px;
+      padding-left: 40px; }
+      .content-posts .row .pic-label h1 {
+        margin: 0;
+        margin-bottom: 8px;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-transform: uppercase; }
+      .content-posts .row .pic-label p {
+        margin: 0;
+        font-style: italic; }
+    .content-posts .row .col-first {
+      padding-right: 24px; }
+      .content-posts .row .col-first .picture {
+        background-color: #f69679; }
+    .content-posts .row .col-second {
+      padding-left: 0; }
+      .content-posts .row .col-second .picture {
+        background-color: #e8b968; }
+    .content-posts .row .col-third h1 {
+      font-weight: normal;
+      font-size: 45px;
+      line-height: 50px;
+      margin: 0; }
+    .content-posts .row .col-third p {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 30px;
+      margin: 30px 0px; }
+    .content-posts .row .col-third .row-selector {
+      padding: 0; }
+
+/* Footer */
+footer {
+  background: #7accc8;
+  min-height: 100px; }

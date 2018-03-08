@@ -1,0 +1,43 @@
+ /* Автоматическое изменение размера фоновой картинки хэдера на большом разрешении */
+
+@media (min-width:1600px) {
+	header {
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+}
+
+ /* Показ фоновых картинок секции 1 при разрешении более 768 */
+
+@media (min-width:768px) {
+	.content-download .container .ipad #ipad {
+		display: inline-block;
+	}
+	.content-download .container .ipad #ipad-shadow {
+		display: inline-block;
+	}
+	.content-download .container {
+		background-image: url(../images/circle_1.png);
+		background-repeat: no-repeat;
+		background-position: 85% 280px;
+	}
+	.content-download .wrapper {
+		background-image: url(../images/circle_2.png);
+		background-repeat: no-repeat;
+		background-position: 85% 480px;
+	}
+}
+
+/* Увеличение высоты текста, верхнего паддинга в секции 2 при разрешении более 576 */
+
+@media (min-width:576px) {
+	.content-review .row-avatar {
+  padding-top: 135px;
+	}
+	.content-review .row-quote p {
+		font-size: 40px;
+	}
+	.content-review .row-quote {
+		padding-bottom: 60px
+	}
+}
